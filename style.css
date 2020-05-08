@@ -1,0 +1,118 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #c1fe01;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: #1F75FE;
+  margin-top: 50px;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+
+ul li  {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 50px;
+}
+
+
+ul li a  {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+ul li a:hover  {
+  color: red;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.container {
+   
+  display: flex;
+   
+  background-color: #1F75FE;
+ 
+}
+ 
+ 
+				
+.container > div {
+   
+  background-color: red;
+   
+  width: 100px;
+   
+  height: 100px;
+   
+  margin: 10px;
+   
+  text-align: center;
+   
+  font-size: 30px;
+ 
+}
+        
+
+.school {
+   
+  display: flex;
+   
+  background-color: blue;
+ 
+}
+ 
+
+.school > div {
+   
+  background-color: red;
+   
+  width: 50px;
+   
+  height: 100px;
+   
+  margin: 10px;
+   
+  text-align: center;
+   
+  font-size: 80px;
+ 
+}
+
+       
+     
+
+table {
+    
+  font-family: 'EB Garamond', serif; /*This is the code for the table font*/
+    
+  font-weight:bolder;
+  
+}
+
+footer {
+  display: flex;
+  background-color: #c1fe01;
+}
